@@ -1,7 +1,7 @@
 # VoiceOps 2026 – ZentroMart voice support agent
 
 **audio → Gnani STT → agent (LLM + RAG + tools) → Gnani TTS → spoken reply**
-GitHub: <paste your public repo URL here>
+GitHub:(https://github.com/anjali78p/voiceops_genai)
 
 ## 1. Install
 ```bash
