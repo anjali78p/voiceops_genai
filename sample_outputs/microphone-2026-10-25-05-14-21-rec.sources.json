@@ -1,0 +1,37 @@
+[
+  {
+    "id": "TRK-2",
+    "file": "help_track_order.md",
+    "doc_title": "Tracking your order",
+    "status": "current",
+    "text": "## [TRK-2] Delivered but not received\nIf an order shows Delivered but the customer has not received it, check with family, neighbours or the building security, then report it within 48 hours as a missing item under DWM-1."
+  },
+  {
+    "id": "CAN-3",
+    "file": "pol_cancellations.md",
+    "doc_title": "Cancellations policy",
+    "status": "current",
+    "text": "## [CAN-3] Grocery delivery slots\nGrocery orders can be cancelled up to 2 hours before the start of the chosen delivery slot.\nIf the slot start time is not in the order record, ask the customer for the time shown in My Orders before confirming whether the cutoff has passed."
+  },
+  {
+    "id": "CAN-1",
+    "file": "pol_cancellations.md",
+    "doc_title": "Cancellations policy",
+    "status": "current",
+    "text": "## [CAN-1] Before the order ships\nAny order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately."
+  },
+  {
+    "id": "KB-00.1",
+    "file": "00_about_this_knowledge_base.md",
+    "doc_title": "About this knowledge base",
+    "status": "current",
+    "text": "## [KB-00.1] Which document wins\nWhen two documents disagree, follow this order of precedence:\n\n1. **Policy documents** (doc_type: policy) with status `current`.\n2. **Agent guides** (doc_type: agent_guide).\n3. **Help articles** (doc_type: help).\n4. **FAQs** (doc_type: faq).\n5. **Marketing pages** (doc_type: marketing). These describe benefits in general terms and never override a policy.\n\n\nDocuments marked `status: superseded` are kept for reference only. They apply only to the cases their successor document says they still cover."
+  },
+  {
+    "id": "KB-00.3",
+    "file": "00_about_this_knowledge_base.md",
+    "doc_title": "About this knowledge base",
+    "status": "current",
+    "text": "## [KB-00.3] Business days\nA business day is Monday to Saturday, excluding the warehouse holidays below. Refund and logistics timelines are counted in business days. Return windows are counted in calendar days.\n\n| Date | Holiday |\n| --- | --- |\n| 2026-08-15 | Independence Day |\n| 2026-10-02 | Gandhi Jayanti |\n| 2026-10-19 | Warehouse closure (festival) |\n| 2026-11-09 | Warehouse closure (festival) |"
+  }
+]

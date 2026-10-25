@@ -1,0 +1,83 @@
+[
+  {
+    "file": "microphone-2026-10-25-05-12-35-rec.wav",
+    "heard": "mera order abhi tak nahi aaya hai kya aap mujhe bata sakte hain ki mein ise cancel kaise kar sakti hoon",
+    "reply": "Sorry, I ran into a problem. A human colleague will get back to you.",
+    "sources": [],
+    "tool_calls": [],
+    "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m5rp3560ernrdysjyhcwd46z` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199269, Requested 2018. Please try again in 9m15.983999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "audio_ok": true
+  },
+  {
+    "file": "microphone-2026-10-25-05-13-24-rec.wav",
+    "heard": "what is the return window for clothing can i return an item if the size doesn't fit me",
+    "reply": "Sorry, I ran into a problem. A human colleague will get back to you.",
+    "sources": [],
+    "tool_calls": [],
+    "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m5rp3560ernrdysjyhcwd46z` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198150, Requested 2318. Please try again in 3m22.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "audio_ok": true
+  },
+  {
+    "file": "microphone-2026-10-25-05-13-44-rec.wav",
+    "heard": "i want five hundred rupees in compensation right now my order was delayed and i am really disappointed with your service",
+    "reply": "Sorry, I ran into a problem. A human colleague will get back to you.",
+    "sources": [],
+    "tool_calls": [],
+    "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m5rp3560ernrdysjyhcwd46z` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199268, Requested 1962. Please try again in 8m51.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "audio_ok": true
+  },
+  {
+    "file": "microphone-2026-10-25-05-14-03-rec.wav",
+    "heard": "i returned my product last week but i still haven't received my refund could you please check the status for me",
+    "reply": "Sorry, I ran into a problem. A human colleague will get back to you.",
+    "sources": [],
+    "tool_calls": [],
+    "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m5rp3560ernrdysjyhcwd46z` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198140, Requested 2036. Please try again in 1m16.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "audio_ok": true
+  },
+  {
+    "file": "microphone-2026-10-25-05-14-21-rec.wav",
+    "heard": "i received the wrong product in my order i want to know how i can get the correct item delivered as soon as possible",
+    "reply": "I am ZentroMart's AI support assistant. I’m sorry you received the wrong product. Please share your order ID so I can verify it and arrange a replacement for you.",
+    "sources": [
+      {
+        "id": "TRK-2",
+        "file": "help_track_order.md",
+        "doc_title": "Tracking your order",
+        "status": "current",
+        "text": "## [TRK-2] Delivered but not received\nIf an order shows Delivered but the customer has not received it, check with family, neighbours or the building security, then report it within 48 hours as a missing item under DWM-1."
+      },
+      {
+        "id": "CAN-3",
+        "file": "pol_cancellations.md",
+        "doc_title": "Cancellations policy",
+        "status": "current",
+        "text": "## [CAN-3] Grocery delivery slots\nGrocery orders can be cancelled up to 2 hours before the start of the chosen delivery slot.\nIf the slot start time is not in the order record, ask the customer for the time shown in My Orders before confirming whether the cutoff has passed."
+      },
+      {
+        "id": "CAN-1",
+        "file": "pol_cancellations.md",
+        "doc_title": "Cancellations policy",
+        "status": "current",
+        "text": "## [CAN-1] Before the order ships\nAny order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately."
+      },
+      {
+        "id": "KB-00.1",
+        "file": "00_about_this_knowledge_base.md",
+        "doc_title": "About this knowledge base",
+        "status": "current",
+        "text": "## [KB-00.1] Which document wins\nWhen two documents disagree, follow this order of precedence:\n\n1. **Policy documents** (doc_type: policy) with status `current`.\n2. **Agent guides** (doc_type: agent_guide).\n3. **Help articles** (doc_type: help).\n4. **FAQs** (doc_type: faq).\n5. **Marketing pages** (doc_type: marketing). These describe benefits in general terms and never override a policy.\n\n\nDocuments marked `status: superseded` are kept for reference only. They apply only to the cases their successor document says they still cover."
+      },
+      {
+        "id": "KB-00.3",
+        "file": "00_about_this_knowledge_base.md",
+        "doc_title": "About this knowledge base",
+        "status": "current",
+        "text": "## [KB-00.3] Business days\nA business day is Monday to Saturday, excluding the warehouse holidays below. Refund and logistics timelines are counted in business days. Return windows are counted in calendar days.\n\n| Date | Holiday |\n| --- | --- |\n| 2026-08-15 | Independence Day |\n| 2026-10-02 | Gandhi Jayanti |\n| 2026-10-19 | Warehouse closure (festival) |\n| 2026-11-09 | Warehouse closure (festival) |"
+      }
+    ],
+    "tool_calls": [],
+    "error": null,
+    "audio_ok": true
+  }
+]
